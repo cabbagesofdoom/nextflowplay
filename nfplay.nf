@@ -7,7 +7,7 @@ Other functions may be added with time, e.g. kmer analysis and genomescope.
 */
 
 // This enables DSL2 syntax. I am not sure what that means, so look it up if things are not working.
-nextflow.enable.dsl=2
+// nextflow.enable.dsl=2
 
 /*  Usage:
        nextflow run nfplay.nf --input <input_file>
