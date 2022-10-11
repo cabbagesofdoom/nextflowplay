@@ -17,7 +17,7 @@ nextflow.enable.dsl=2
 
 /*  Workflow parameters are written as params.<parameter>
     and can be initialised using the `=` operator. */
-params.input = "../NOVOPlasty/Test\ datasets/Mitochondrial\ assembly/Homo_sapiens_R1.fasta.gz"
+params.input = "data/yeast/reads/ref1_1.fq.gz"
 
 /* This workflow performs the following steps:
     1. Count and print the number of lines for a gzipped file.
