@@ -7,7 +7,7 @@ Other functions may be added with time, e.g. kmer analysis and genomescope.
 */
 
 // This enables DSL2 syntax. I am not sure what that means, so look it up if things are not working.
-// nextflow.enable.dsl=2
+nextflow.enable.dsl=2
 
 /*  Usage:
        nextflow run nfplay.nf --input <input_file>
@@ -17,7 +17,7 @@ Other functions may be added with time, e.g. kmer analysis and genomescope.
 
 /*  Workflow parameters are written as params.<parameter>
     and can be initialised using the `=` operator. */
-params.input = "data/yeast/reads/ref1_1.fq.gz"
+params.input = "../NOVOPlasty/Test\ datasets/Mitochondrial\ assembly/Homo_sapiens_R1.fasta.gz"
 
 /* This workflow performs the following steps:
     1. Count and print the number of lines for a gzipped file.
